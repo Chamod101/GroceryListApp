@@ -7,7 +7,7 @@ const Content = (props) => {
 
 
     return (
-        <main>
+        <>
             {props.items.length ? (
                 <ItemList
                     items={props.items}
@@ -17,7 +17,7 @@ const Content = (props) => {
             ) : (
                 <p style={{ marginTop: '2rem' }}>Your list is empty.</p>
             )}
-        </main>
+        </>
     )
 }
 
